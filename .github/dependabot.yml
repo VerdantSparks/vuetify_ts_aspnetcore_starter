@@ -1,0 +1,30 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "21:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: css-loader
+    versions:
+    - "> 4.2.0, < 4.3"
+  - dependency-name: vuetify
+    versions:
+    - 2.4.3
+    - 2.4.5
+  - dependency-name: webpack-cli
+    versions:
+    - 4.4.0
+    - 4.5.0
+  - dependency-name: ts-loader
+    versions:
+    - 8.0.14
+    - 8.0.17
+  - dependency-name: css-loader
+    versions:
+    - 5.1.1
+  - dependency-name: "@types/chart.js"
+    versions:
+    - 2.9.30
