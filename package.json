@@ -37,7 +37,7 @@
     "lodash": "^4.17.10",
     "@types/lodash": "^4.14.109",
     "chart.js": "^2.7.2",
-    "@types/chart.js": "^2.7.23",
+    "@types/chart.js": "^2.9.32",
     "material-design-icons-iconfont": "^6.0.1"
   }
 }
